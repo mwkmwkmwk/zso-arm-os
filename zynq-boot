@@ -29,7 +29,7 @@ input 5 "Zynq>"
 # should be loaded.
 lineout "loadb 0x1000"
 # This should be the absolute path to your kernel uImage file.
-send h4x
+send loader
 input 5 "Zynq>"
 lineout "bootelf 0x1000"
 
